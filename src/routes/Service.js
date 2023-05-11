@@ -14,9 +14,23 @@ function Service() {
         btnClass="hide"
       />
       <Navbar />
-      <button>
-        <button placeholder="Enter your url here:"> </button>
-      </button>
+      <div className="from-container">
+        <h1>Let's Detect</h1>
+        <form>
+          <input placeholder="Title" />
+        </form>
+        <form>
+          <input placeholder="Author" />
+        </form>
+        <form>
+          <input placeholder="News" />
+        </form>
+        <form>
+        
+          <button rows="2">Fake</button>
+          <button>Real</button>
+        </form>
+      </div>
 
       <Footer />
     </>
